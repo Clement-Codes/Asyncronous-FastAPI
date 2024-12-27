@@ -19,7 +19,7 @@ async def endpoint2():
     await asyncio.sleep(5)
     print("Bye")
 
-# Endpoint 3(Multithreading ): Synchronous endpoint using time.sleep
+# Endpoint 3(Multi Processing): Synchronous endpoint using time.sleep
 @app.get("/3")
 def endpoint3():
     print("Hello")
